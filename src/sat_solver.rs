@@ -1,5 +1,5 @@
 use crate::brute_force_solver::solve;
-use crate::cnf::eval_clauses;
+use crate::eval::eval_clauses;
 use crate::sat_solver::Solution::Satisfiable;
 use crate::sat_solver::Solution::Unsatisfiable;
 use dimacs::Instance::Cnf;

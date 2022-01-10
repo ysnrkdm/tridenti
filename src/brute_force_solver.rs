@@ -1,4 +1,4 @@
-use crate::cnf::eval_clauses;
+use crate::eval::eval_clauses;
 use crate::sat_solver::FixedVars;
 use crate::sat_solver::Solution;
 use crate::sat_solver::Solution::Satisfiable;
